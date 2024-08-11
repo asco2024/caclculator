@@ -44,7 +44,7 @@ def all(a,b):
         print(ve)
 
 def main():
-    st.title("sophisticated calculator")
+    st.title(" Osman & Cisse's sophisticated calculator")
     st.write("Select an operation")
     operation = st.selectbox("Operation",["Add","Subtract","Multiply","Divide","Remainder","Power","All"])
     num1 = st.number_input("Enter the first number",format ="%.3f")
